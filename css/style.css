@@ -858,7 +858,6 @@ ol {
 .hero-items .single-hero-items {
   height: 725px;
   padding-top: 210px;
-  background-size: cover;
 }
 
 .hero-items .single-hero-items span {
@@ -874,7 +873,7 @@ ol {
   opacity: 0;
 }
 
-.hero-items .single-hero-items h1 {
+.hero-items .hero-1 h1 {
   color: #252525;
   font-size: 72px;
   font-weight: 700;
@@ -884,7 +883,25 @@ ol {
   opacity: 0;
 }
 
-.hero-items .single-hero-items p {
+.hero-items .hero-2 h1 {
+  color: #ffffff;
+  font-size: 72px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  position: relative;
+  top: 50px;
+  opacity: 0;
+}
+
+.hero-items .hero-1 p {
+  margin-bottom: 42px;
+  position: relative;
+  top: 100px;
+  opacity: 0;
+}
+
+.hero-items .hero-2 p {
+  color: #ffffff;
   margin-bottom: 42px;
   position: relative;
   top: 100px;
@@ -1318,6 +1335,9 @@ ol {
   margin-right: 65px;
 }
 
+.deal-of-week .container .img {
+  background: linear-gradient(#e66465, #9198e5);
+}
 .countdown-timer {
   text-align: center;
   margin-bottom: 50px;
