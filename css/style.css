@@ -1335,8 +1335,8 @@ ol {
   margin-right: 65px;
 }
 
-.deal-of-week .container .img {
-  background: linear-gradient(#e66465, #9198e5);
+.bg-img {
+  background-image: linear-gradient(#f0eee4, #e9dab0);
 }
 .countdown-timer {
   text-align: center;
